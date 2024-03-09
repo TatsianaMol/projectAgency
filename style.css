@@ -88,3 +88,24 @@ background-size:cover;
 }
 
 
+/* вторая секция */
+.section_box{
+    margin: 0 15em;
+   
+}
+
+.section_container{
+    display: flex;
+}
+
+.section_container_item_2{
+   padding-left: 8rem;
+}
+
+.section_container_item_2  p{
+    margin-bottom: 20px;
+}
+
+.section_container_item_2 h2{
+    margin-bottom: 20px;
+}
