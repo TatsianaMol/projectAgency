@@ -1,0 +1,68 @@
+/* Common */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Начало первая часть */
+.main_box{
+    margin: 0 15em;
+}
+
+.img_logo{
+    position: absolute;
+    top: 1%;
+}
+
+
+.main{
+background: url(img/fon_forest.png);
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+.main_container{
+    display: flex;
+    justify-content: flex-end;
+    color: whitesmoke;
+    text-transform: lowercase;
+    padding-top: 20px;
+}
+.item{
+   margin-right: 20px;
+}
+
+.main-text{
+    text-align: center;
+    margin: 8em 0;
+    color: whitesmoke;
+    position: relative;
+}
+
+.h1::after{
+    position: absolute;
+    left: 45%;
+    top:10%;
+    display: block;
+    content: '';
+    width: 70px;
+    height: 1px;
+    background-color: aqua;
+    margin: 30px 0;
+}
+
+.main_shorttext{
+    margin: 60px 0 30px 0;
+}
+
+.main_button{
+    border: 1px solid aqua;
+    background-color: transparent;
+    padding: 10px 12px;
+    color: whitesmoke;
+    margin: 20px 0;
+}
+
+
