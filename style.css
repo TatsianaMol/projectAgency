@@ -29,9 +29,15 @@ background-size:cover;
     color: whitesmoke;
     text-transform: lowercase;
     padding-top: 20px;
+    font-weight: 900;
 }
+
 .item{
    margin-right: 20px;
+}
+
+.item:hover{
+    color: aqua;
 }
 
 .main-text{
@@ -61,8 +67,24 @@ background-size:cover;
     border: 1px solid aqua;
     background-color: transparent;
     padding: 10px 12px;
-    color: whitesmoke;
+    color: aqua;
     margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
+.img_down{
+    background-color: aliceblue;  
+    border-radius: 50%;
+}
+
+.img_down:hover{
+    background-color: aqua;
+}
+
+.img_down{
+    margin: 5rem 0 3rem 0;
 }
 
 
