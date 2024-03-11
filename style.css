@@ -109,3 +109,35 @@ background-size:cover;
 .section_container_item_2 h2{
     margin-bottom: 20px;
 }
+
+
+/* третья секция play */
+
+.section_2{
+    background-image: url(img/tajem_master.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    height: 500px;
+}
+
+
+.section_2-play{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    right: 0;
+    
+}
+
+.section_2-play-text{
+    color: whitesmoke;
+    text-transform: uppercase;
+    position:absolute;
+    left: 48.5%;
+    top: 70%;
+    right: 0;
+    padding-top: 20px;
+ 
+}
+
