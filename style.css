@@ -470,3 +470,74 @@ input:nth-child(1){
     gap: 10px 20px;
     margin-top: 20px;
 }
+
+
+
+/* foot */
+
+
+.foot{
+    background: url(img/fon_forest.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 350px;
+}
+
+.foot_box{
+    margin: 0 15em;
+    color: whitesmoke;
+    padding-top: 70px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+div span{
+    padding-bottom: 20px;
+}
+
+.foot_item2{
+    padding-bottom: 20px;
+}
+
+.foot_item{
+    position: relative;
+}
+.foot_h3{
+    padding-bottom: 20px;
+}
+
+span img{
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    margin-right: 5px;
+}
+
+.foot_logo{
+  position: absolute;
+  top: -10%;
+}
+
+.foot_logo-text{
+    margin-top: 50px;
+
+}
+
+.footdown{
+
+    margin: 2rem 15em 0 15rem;
+    display: flex;
+   
+    color: whitesmoke;
+
+}
+
+.push{
+    margin-left: 28rem;
+}
+
+.footdown_item{
+    margin-right: 20px;
+
+}
